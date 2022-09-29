@@ -1,0 +1,21 @@
+{
+    "name": "myfirst",
+    "displayName": "myfristtheme",
+    "description": "me trying to create a theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "firsttheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/firsttheme-color-theme.json"
+            }
+        ]
+    }
+}

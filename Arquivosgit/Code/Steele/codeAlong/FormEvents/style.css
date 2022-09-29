@@ -1,0 +1,13 @@
+:root {
+    font-size: 15px;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    --main-color: rgb(107, 109, 230);
+}
+
+button {
+    background-color: var(--main-color);
+    color: rgb(245, 207, 207);
+    border-radius: 15%;
+    border: none;
+    box-shadow: 4rem solid black;
+}

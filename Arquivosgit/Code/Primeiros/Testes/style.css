@@ -1,0 +1,28 @@
+.teste {
+    background-color: black;
+    font-size: 40px;
+    width: max-content;
+    text-justify:  center;
+    color: white;
+    display: inline-block;
+    position: relative;
+    display: grid;
+    line-height: 0;
+}
+.abaixo {
+    background-color: rgb(97, 25, 25);
+    font-size: 40px;
+    width: max-content;
+    text-justify:  center;
+    color: white;
+    display: inline-block;
+    display: grid;
+    position: relative;
+
+}
+p {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid;
+  }

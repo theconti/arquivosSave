@@ -1,0 +1,78 @@
+:root {
+    --blue: #788ae4;
+    --white: #dfebfc;
+    --darkRed: #9fa4bf;
+    --lightblue: #5f6db3;
+    --darkblue: #444e80;
+    --darkOrange: #cc9004;
+    --orange: #dfab32;
+    --black: #000;
+    --branco: #fff;
+}
+h1 {
+    padding: 1rem;
+}
+
+body {
+    background-color: var(--white);
+}
+
+button {
+    background-color: var(--blue);
+    color: var(--branco);
+}
+
+#signup {
+    background-color: var(--lightblue);
+    color: var(--branco);
+}
+.spn {
+    background-color: var(--darkblue);
+    color: var(--branco);
+}
+
+.post a {
+    color: var(--darkOrange);
+    text-decoration: none;
+}
+
+li > a {
+    color: var(--darkblue);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+footer > a {
+    color: var(--darkblue);
+}
+
+input[type='password'] {
+    color: var(--darkblue);
+}
+
+.post button:hover {
+    background-color: var(--orange);
+    color: var(--black);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.post button:active {
+    background-color: var(--darkblue);
+    color: var(--branco);
+}
+o:selection {
+    background-color: var(--blue);
+    color: #fff;
+}

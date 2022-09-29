@@ -1,0 +1,66 @@
+:root {
+    font-family: roboto;
+    --main-color: #141925;
+    --main-text: rgb(216, 213, 215);
+    --neon: rgb(124, 0, 83);
+    --neon-pressed: rgb(253, 13, 173);
+    color: var(--main-text);
+}
+
+body {
+    height: 100vh;
+    background-color: #151b29;
+}
+main {
+}
+
+#scoreboard {
+    margin: 1rem;
+    color: var(--main-text);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+div {
+    display: flex;
+    color: var(--main-text);
+    display: inline-block;
+}
+
+#boardControl {
+    width: 15vh;
+    margin: 1rem;
+}
+
+#nomination {
+    width: 15vh;
+    margin: 1rem;
+    display: flex;
+}
+
+button {
+    width: 10em;
+    padding: 0.5rem;
+    box-shadow: 0 0 0.1rem #fff, 0 0 0.3rem #fff, 0 0 0.7rem var(--neon),
+        0 0 0.3rem var(--neon), 0 0 0.7rem var(--neon),
+        inset 0 0 0.5rem var(--neon);
+    background-color: var(--main-color);
+    color: var(--main-text);
+}
+
+button:hover {
+    box-shadow: 0 0 0.6em #fff, 0 0 0.8em #fff, 0 0 2em var(--neon),
+        0 0 1.5em var(--neon), 0 0 1.5em var(--neon),
+        inset 0 0 2.5em var(--neon);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+button:active {
+    box-shadow: 0 0 0.6em #fff, 0 0 0.8em #fff, 0 0 2em var(--neon-pressed),
+        0 0 1.5em var(--neon-pressed), 0 0 1.5em var(--neon-pressed),
+        inset 0 0 4em var(--neon-pressed);
+}

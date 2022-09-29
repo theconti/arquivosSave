@@ -1,0 +1,11 @@
+body{
+    background-color: aquamarine;
+    width:100vw;
+    height:100vw;
+}
+
+div{
+    background-color:bisque;
+    width: 50%;
+    height: 50%;
+}

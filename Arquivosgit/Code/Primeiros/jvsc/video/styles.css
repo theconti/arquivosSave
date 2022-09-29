@@ -1,0 +1,36 @@
+h1 {
+    border: bold;
+    font-size: 3rem;
+    justify-content: center;
+}
+
+h2 {
+    background: rgb(219, 126, 176);
+    justify-content: center;
+    display: inline-block;
+    margin: auto, 50%;
+}
+
+button {
+    border: none;
+    font-size: 0.5rem;
+    padding: 1rem 1rem 1rem 1rem;
+    color: white;
+    font-weight: bold;
+    width: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 35%;
+    justify-content: center;
+}
+
+#increment-btn {
+    background: rgb(8, 15, 75);
+}
+
+#save-btn {
+    background: darkslateblue;
+}
+
+#reset-btn {
+    background: darkred;
+}

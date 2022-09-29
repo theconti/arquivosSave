@@ -1,0 +1,12 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "files.eol": "\n",
+    "files.insertFinalNewLine": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defauktFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.port": 5501
+}

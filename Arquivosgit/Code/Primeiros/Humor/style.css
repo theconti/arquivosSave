@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    background: black;
+}
+
+canvas {
+    background: url(img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

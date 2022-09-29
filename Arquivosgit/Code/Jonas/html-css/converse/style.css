@@ -1,0 +1,124 @@
+:root {
+    --main-font-black: hsl(0, 7%, 32%);
+    --black-light-200: hsl(00, 10%, 70%);
+    --black-light-100: hsl(0, 3%, 90%);
+    --black-dark-500: hsl(207, 5%, 32%);
+
+    --font-size-300: 0.9rem;
+    --font-size-400: 1.125rem;
+    --font-size-500: 1.25rem;
+    --font-size-600: 1.75rem;
+    --font-size-700: 3rem;
+
+    --space-3: calc(var(--space4) / 2);
+    --space-4: 1rem;
+    --space-5: calc(var(--space-4) * 1.5);
+    --space-6: calc(var(--space-4) * 2);
+    --space-7: calc(var(--space-4) * 4);
+    --space-8: calc(var(--space-4) * 5);
+
+    --body-padding: var(--space-8);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+/*  PRODUCT  */
+
+.product {
+    border: 0.2rem solid var(--black-dark-500);
+    /* box-shadow: 0 0 0.3rem black; */
+    color: var(--main-font-black);
+    width: 50rem;
+    margin: 5rem auto;
+}
+
+.product-title {
+    text-align: center;
+    font-size: var(--font-size-600);
+    text-transform: uppercase;
+    background-color: var(--black-light-100);
+    padding: 0.5rem;
+}
+
+/*  PRODUCT INFORMATION   */
+
+.price {
+    font-size: var(--font-size-600);
+}
+
+.shipping {
+    font-size: var(--font-size-300);
+    text-transform: uppercase;
+    color: var(--black-light-200);
+    font-weight: bold;
+    margin-bottom: var(--space-4);
+}
+
+.more-info:link,
+.more-info:visited {
+    color: var(--black-dark-500);
+}
+
+.more-info:hover,
+.more-info:active {
+    text-decoration: none;
+    color: var(--black-light-200);
+}
+
+/*  PRODUCT DETAILS  */
+
+.details-title {
+    text-transform: uppercase;
+    font-size: var(--font-size-500);
+    margin-right: 0.5rem;
+    margin-top: var(--space-6);
+    margin-bottom: var(--space-3);
+}
+
+.details-list {
+    list-style-type: square;
+    margin-left: var(--space-4)
+}
+
+.details-list li{
+
+}
+
+/*  BUTTON  */
+
+.add-cart {
+    display: -webkit-flex;
+    border: none;
+    color: var(--black-light-100);
+    background-color: var(--black-dark-500);
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 2rem;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    border: 3px solid var(--black-dark-500);
+    padding: 0.5em;
+}
+
+.add-cart:hover {
+    color: var(--black-dark-500);
+    background-color: var(--black-light-100);
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
